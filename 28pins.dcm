@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA328P-PU
+D Atmel ATMEGA328P microcontroller
+K microcontroller avr
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf
+$ENDCMP
+#
+#End Doc Library
