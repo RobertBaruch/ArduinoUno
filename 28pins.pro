@@ -1,4 +1,4 @@
-update=11/28/2016 11:04:29 PM
+update=11/30/2016 10:01:53 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -55,7 +55,6 @@ LibName23=display
 LibName24=cypress
 LibName25=siliconi
 LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-LibName30=28pins
+LibName27=contrib
+LibName28=valves
+LibName29=28pins

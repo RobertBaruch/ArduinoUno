@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATMEGA16U2
+D ATMEGA16U2 microcontroller
+K microcontroller
+F http://www.atmel.com/Images/7799s.pdf
+$ENDCMP
+#
 $CMP ATMEGA328P-PU
 D Atmel ATMEGA328P microcontroller
 K microcontroller avr
