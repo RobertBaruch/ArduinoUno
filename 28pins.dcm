@@ -1,6 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10x1F
+D 10x1 female header
+K header
+$ENDCMP
+#
 $CMP ATMEGA16U2
+D ATMEGA16U2 microcontroller
+K microcontroller
+F http://www.atmel.com/Images/7799s.pdf
+$ENDCMP
+#
+$CMP ATMEGA16U2-AU
 D ATMEGA16U2 microcontroller
 K microcontroller
 F http://www.atmel.com/Images/7799s.pdf
