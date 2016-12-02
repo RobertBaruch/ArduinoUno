@@ -5,6 +5,16 @@ D 10x1 female header
 K header
 $ENDCMP
 #
+$CMP 6x1F
+D 6x1 female header
+K header
+$ENDCMP
+#
+$CMP 8x1F
+D 8x1 female header
+K header
+$ENDCMP
+#
 $CMP ATMEGA16U2
 D ATMEGA16U2 microcontroller
 K microcontroller
@@ -21,6 +31,10 @@ $CMP ATMEGA328P-PU
 D Atmel ATMEGA328P microcontroller
 K microcontroller avr
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor, smd
 $ENDCMP
 #
 #End Doc Library
