@@ -1,8 +1,63 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +5V/+3V3
+D +5V/+3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP 100n
+D 100n Unpolarized capacitor, smd
+K capacitor
+$ENDCMP
+#
+$CMP 10k
+D 10k 0805 resistor 1%
+K resistor
+$ENDCMP
+#
+$CMP 10u
+D 10u Unpolarized capacitor, smd
+K capacitor
+$ENDCMP
+#
 $CMP 10x1F
 D 10x1 female header
 K header
+$ENDCMP
+#
+$CMP 16MHz
+D 16MHz crystal
+K crystal
+$ENDCMP
+#
+$CMP 18p
+D 18p Unpolarized capacitor, smd
+K capacitor
+$ENDCMP
+#
+$CMP 1M
+D 1M 0805 resistor 1%
+K resistor
+$ENDCMP
+#
+$CMP 1k
+D 1k 0805 resistor 1%
+K resistor
+$ENDCMP
+#
+$CMP 22R
+D 22R 0805 resistor 1%
+K resistor
+$ENDCMP
+#
+$CMP 3x1F
+D 6x1 female header
+K header
+$ENDCMP
+#
+$CMP 560R
+D 560R 0805 resistor 1%
+K resistor
 $ENDCMP
 #
 $CMP 6x1F
@@ -13,6 +68,11 @@ $ENDCMP
 $CMP 8x1F
 D 8x1 female header
 K header
+$ENDCMP
+#
+$CMP AREF
+D AREF
+K POWER, PWR
 $ENDCMP
 #
 $CMP ATMEGA16U2
@@ -33,8 +93,58 @@ K microcontroller avr
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet_summary.pdf
 $ENDCMP
 #
+$CMP BAT54HT1G
+D BAT54HT1G Schottky diode
+K Schottky diode
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor, smd
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector, single row, 01x04
+K connector
+$ENDCMP
+#
+$CMP CONN_02X02
+D Connector, double row, 02x02
+K connector
+$ENDCMP
+#
+$CMP CONN_02X03
+D Connector, double row, 02x03
+K connector
+$ENDCMP
+#
+$CMP CONN_02X04
+D Connector, double row, 02x04
+K connector
+$ENDCMP
+#
+$CMP LG-L29K-F2J1-24-Z
+D Green LED
+K LED
+$ENDCMP
+#
+$CMP LO-L29K-H2K1-24-Z
+D Orange LED
+K LED
+$ENDCMP
+#
+$CMP MPZ2012S601AT000
+D Ferrite bead
+K ferrite
+$ENDCMP
+#
+$CMP SN74AHC1G09DBVR
+D Single-gate AND
+K and gate
+$ENDCMP
+#
+$CMP SPST_MOM_NO
+D Connector, double row, 02x02
+K connector
 $ENDCMP
 #
 #End Doc Library
