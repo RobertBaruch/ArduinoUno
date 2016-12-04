@@ -5,9 +5,29 @@ D +5V/+3V3
 K POWER, PWR
 $ENDCMP
 #
+$CMP 0R
+D 0R 0805 resistor
+K resistor
+$ENDCMP
+#
+$CMP 100k
+D 100k 0805 resistor 1%
+K resistor
+$ENDCMP
+#
 $CMP 100n
 D 100n Unpolarized capacitor, smd
 K capacitor
+$ENDCMP
+#
+$CMP 100u
+D 100u polarised capacitor, smd
+K capacitor
+$ENDCMP
+#
+$CMP 10118192-0001LF
+D USB micro B connector
+K connector USB
 $ENDCMP
 #
 $CMP 10k
@@ -45,13 +65,23 @@ D 1k 0805 resistor 1%
 K resistor
 $ENDCMP
 #
+$CMP 1u
+D 1u Unpolarized capacitor, smd
+K capacitor
+$ENDCMP
+#
 $CMP 22R
-D 22R 0805 resistor 1%
+D 22R resistor 0805 1%
 K resistor
 $ENDCMP
 #
+$CMP 2u2
+D 2u2 inductor, smd
+K inductor
+$ENDCMP
+#
 $CMP 3x1F
-D 6x1 female header
+D 3x1 male header
 K header
 $ENDCMP
 #
@@ -102,6 +132,11 @@ $CMP C
 D Unpolarized capacitor, smd
 $ENDCMP
 #
+$CMP CG0603MLC-05E
+D Varistor
+K varistor
+$ENDCMP
+#
 $CMP CONN_01X04
 D Connector, single row, 01x04
 K connector
@@ -132,6 +167,14 @@ D Orange LED
 K LED
 $ENDCMP
 #
+$CMP MOUNTING_HOLE
+D Mounting hole, 7.4mm, 3.2mm drill
+$ENDCMP
+#
+$CMP MOUNTING_HOLE_NP
+D Mounting hole, NPTH 7.4mm, 3.2mm drill
+$ENDCMP
+#
 $CMP MPZ2012S601AT000
 D Ferrite bead
 K ferrite
@@ -145,6 +188,11 @@ $ENDCMP
 $CMP SPST_MOM_NO
 D Connector, double row, 02x02
 K connector
+$ENDCMP
+#
+$CMP TL1963A-33DCQR
+D 3v3 LDO regulator
+K regulator
 $ENDCMP
 #
 #End Doc Library
